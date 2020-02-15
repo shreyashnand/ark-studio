@@ -1,7 +1,7 @@
 .transparent_nav{
     background-color:  rgba(228, 220, 220, 0.7);
     width:101.2%;
-    height:110px;
+    height:120px;
     position: fixed;
     margin: -20px;
     }
@@ -10,19 +10,21 @@
     margin-bottom: 200px;
     list-style-type:none;
     margin-left: 600px;
-    overflow: hidden;
+    
 }
 #nav_item_1,#nav_item_2,
-    #nav_item_3,#nav_item_4{
-
-    color:brown;
-    text-decoration: none;
+#nav_item_3,#nav_item_4{
     padding-left: 1em;
     font-size: 20px;
     font-weight: bold;
     font-family: helvetica;
     float: left;
     }
+#hf1,#hf2,#hf3,#hf4{
+        text-decoration: none;
+        color:brown;
+    }
+     
 
 #nav_list{
     margin: 0%;
@@ -30,8 +32,8 @@
     margin-left: 950px;
 }
 #ark{
-    
-    margin-left: 200px;
+    padding-bottom: 10px;
+    margin-left: 175px;
     float:left;
 }
 .cta{
@@ -49,18 +51,13 @@
     background-color: rgb(55, 176, 224);
     padding:12px;
     margin-left: 550px;
-    
-    
-    
 }
-    
 #cta_text{
     font-family: Arial, Helvetica, sans-serif;
     color:darkred;
     font-size: 25px;
     display:inline-block;
     margin-left: 20px;
-    
 }
 #section-1{
     
@@ -76,32 +73,16 @@
     font-family: sans-serif;
 
 }
-.flex_services,#ser_1,#ser_2,#ser_3{
-    
+.flex_services{
     padding:0;
     margin: 0;
     list-style-type: none;
     display: flex;
-        justify-content: space-between;
+    justify-content: center;
+    justify-content: space-around;
     
 }
-.flex_desc,#desc_1,#desc_2,#desc_3{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-}
-#des_1,#des_2,#des_3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-#ser_2,#des_2{
-    margin-left: -10%;
-}
-#ser_3{
-    margin-right: 10%;
-}
-#ser_1{
-    margin-left: 5%;
-}
+
 .recent_work{
     margin-left: -20px;
     width: 101.7%;
@@ -117,28 +98,24 @@ img{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: brown;
 }
-.flex_tst_images{
+.flex_tst{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    
 }
-.flex_desg{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
+#test1,#test2,#test3{
+    margin-top: 140px;
 }
-.flex_descr{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    color:lightslategray;
-}
+
+
+
 .footer_widget{
     background-color: black;
     height:300px;
     margin:-8px;
     width:101%;
-        display:flex;
+    display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
     
@@ -148,16 +125,12 @@ img{
     font-family: helvetica;
     padding:10px;
     margin-left: 7%;
-    
-    
 }
 .Company{
     color:white;
     font-family: helvetica;
     padding:10px;
     margin-left: 10%;
-    
-    
 }
 #comp_list,#comp_item_1,#comp_item_2,#comp_item_3,#comp_item_4{
     list-style-type: none;
