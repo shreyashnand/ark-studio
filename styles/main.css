@@ -6,11 +6,11 @@
     margin: -20px;
     }
 #nav_list{
-    margin-top: 0px;
+    margin-top: 28px;
     margin-bottom: 200px;
     list-style-type:none;
     margin-left: 600px;
-    
+    margin-left: 950px;
 }
 #nav_item_1,#nav_item_2,
 #nav_item_3,#nav_item_4{
@@ -24,11 +24,7 @@ a{
     text-decoration: none;
     color:brown;
 }
-#nav_list{
-    margin: 0%;
-    margin-top: 25px;
-    margin-left: 950px;
-}
+
 #ark{
     padding-bottom: 10px;
     margin-left: 175px;
